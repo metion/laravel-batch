@@ -1,5 +1,5 @@
 {
-    "name": "mavinoo/laravel-batch",
+    "name": "metion/laravel-batch",
     "description": "Insert and update batch (bulk) in laravel",
     "type": "library",
     "license": "MIT",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Mavinoo\\Batch\\": "src/"
+            "Metion\\Batch\\": "src/"
         },
         "files": [
             "src/Common/Helpers.php"
@@ -26,10 +26,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mavinoo\\Batch\\BatchServiceProvider"
+                "Metion\\Batch\\BatchServiceProvider"
             ],
             "aliases": {
-                "Batch": "Mavinoo\\Batch\\BatchFacade"
+                "Batch": "Metion\\Batch\\BatchFacade"
             }
         }
     },
