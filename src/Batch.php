@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Mavinoo\Batch;
+namespace Metion\Batch;
 
-use Mavinoo\Batch\Common\Common;
+use Metion\Batch\Common\Common;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\DatabaseManager;
 
